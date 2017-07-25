@@ -235,4 +235,35 @@ public class Room extends BaseNode {
 As can be seen, besides the corresponding typed methods for getters and setters, the generated code also contains constants with meta information (e.g. name and type) for each property. 
 
 # Creating a typed graph
+Now, the generated classes can be used to create and work with a typed graph. 
+The following code shows a simple example.
 
+```java
+        GraphBuilder builder = new GraphBuilder().withPlugin(new ModelPlugin());
+        Graph graph = builder.build();
+        graph.connect(new Callback<Boolean>() {
+            @Override
+            public void on(Boolean result) {
+
+                Building building = Building.create(0, 0, graph);
+                building.setName("building");
+
+                Address addr = Address.create(0, 0, graph);
+                addr.setStreet("street name");
+                addr.setHouseNumber(34);
+                addr.setPlz("1234");
+                building.setAddress(addr);
+
+                Room r1 = Room.create(0, 0, graph);
+                r1.setName("Room 1");
+                r1.setSize(34);
+                building.addToRooms(r1);
+
+                Room r2 = Room.create(0, 0, graph);
+                r2.setName("Room 2");
+                r2.setSize(129);
+                building.addToRooms(r2);
+
+            }
+        });
+```
