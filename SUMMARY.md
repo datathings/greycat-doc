@@ -27,3 +27,5 @@
 	* [Polynomial compression](ml/polynomial.md)
 * [JavaScript](js/README.md)
 	* [Browser](js/browser.md)
+* [GreyCat Modeling](modeling/README.md)
+    * [Getting started](modeling/getting_started.md)
