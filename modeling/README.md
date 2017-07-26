@@ -6,21 +6,6 @@ Instead, you often want to use the concrete concepts of your domain as types of 
 
 GreyCat modeling (GCM) consists of a language module, a code generator, and different build tools (e.g. maven, gradle, command line interface) to execute the generator.
 In a first step, all business types are defined in *.gcm files using a domain specific language. 
-Based on this, the GreyCat generator generates for each defined type one class as node type. 
+Based on this, the GreyCat generator generates for each defined type one class as a node type. 
 
-Then, graphs can be created using these types.
-
-# GCM features 
-Besides types, GCM allows to define additional features, like indexes, constants, or the time sensitivity for a certain type.
-The following list depicts an overview of the provided features:  
-
-# GCM language grammar
-
-
-
-
-# Bigger example
- 
- 
-  
- 
+Then, graphs can be created using these types. 
