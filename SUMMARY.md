@@ -30,4 +30,6 @@
 * [GreyCat Modeling](modeling/README.md)
     * [Getting started](modeling/getting_started.md)
     * [Indexes](modeling/indexes.md)
+    * [Constants](modeling/constants.md)
+    * [Annotations](modeling/annotations.md)
     * [Grammar](modeling/grammar.md)
