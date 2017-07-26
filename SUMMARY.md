@@ -36,3 +36,4 @@
     * [Derived attributes](modeling/derived_attributes.md)
     * [Custom types](modeling/custom_types.md)
     * [Grammar](modeling/grammar.md)
+* [Extending GreyCat](plugin/README.md)
