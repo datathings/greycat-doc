@@ -32,4 +32,7 @@
     * [Indexes](modeling/indexes.md)
     * [Constants](modeling/constants.md)
     * [Annotations](modeling/annotations.md)
+    * [Default values](modeling/defaults.md)
+    * [Derived attributes](modeling/derived_attributes.md)
+    * [Custom types](modeling/custom_types.md)
     * [Grammar](modeling/grammar.md)
