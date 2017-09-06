@@ -173,3 +173,15 @@ public class Building {
     }
 }
 ```
+
+## Indexes Properties
+
+Both Indexes are used to provide faster and more efficient access to the data. However, they are not guaranting the unicity of the keys used as index, only the unicity of the key value pair, i.e., nodes can not be indexed twice, is enforced.
+
+Thus in the case of our running example: 
+ 
+ ```java
+index Buildings : Building using name
+```
+
+Several different buildings sharing their name could be indexed.
